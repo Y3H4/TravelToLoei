@@ -9,7 +9,8 @@ cd TravelToLoei
 git checkout -b feature/attraction origin/main
 git status
 git add data/attraction.json
-
+git commit -m "Add attraction content"
+git push -u origin feature/attraction
 
 
 ------------------------------------------------------------------------------------------
