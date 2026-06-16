@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel to Loei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="เมนูหลัก">
+      <a class="brand" href="#home" aria-label="Travel to Loei หน้าแรก">
+        <span class="brand-mark">L</span>
+        <span>Travel to Loei</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="เปิดเมนู" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" data-nav-links>
+        <a href="#attractions">ที่เที่ยว</a>
+        <a href="#food">อาหาร</a>
+        <a href="#goods">ของฝาก</a>
+        <a href="#contact">ทีมพัฒนา</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" role="img" aria-label="ภูเขาและทะเลหมอกจังหวัดเลย"></div>
+      <div class="hero-content">
+        <p class="eyebrow">จังหวัดเลย ประเทศไทย</p>
+        <h1 id="hero-title">เที่ยวเลยให้ครบ ทั้งภูเขา วัฒนธรรม อาหาร และของฝาก</h1>
+        <p class="hero-copy">รวมข้อมูลสำหรับวางแผนทริปจังหวัดเลยแบบอ่านง่าย แยกเนื้อหาเป็นทีมเพื่อให้พัฒนาเว็บร่วมกันผ่าน Git branch และ Pull Request ได้สะดวก</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#attractions">เริ่มดูที่เที่ยว</a>
+          <a class="button button-secondary" href="#contact">ดูทีมพัฒนา</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview" aria-label="ภาพรวมการท่องเที่ยว">
+      <article>
+        <strong>ธรรมชาติ</strong>
+        <span>ภูเขา ทะเลหมอก อุทยาน และเส้นทางชมวิว</span>
+      </article>
+      <article>
+        <strong>วัฒนธรรม</strong>
+        <span>เมืองเชียงคาน วิถีริมโขง และงานประเพณี</span>
+      </article>
+      <article>
+        <strong>ของกินของฝาก</strong>
+        <span>เมนูท้องถิ่น ร้านแนะนำ และสินค้าประจำจังหวัด</span>
+      </article>
+    </section>
+
+    <section class="content-section" id="attractions" aria-labelledby="attractions-title">
+      <div class="section-heading">
+        <p class="eyebrow">Attractions</p>
+        <h2 id="attractions-title">สถานที่ท่องเที่ยว</h2>
+      </div>
+      <div class="card-grid" data-render-list="attractions"></div>
+    </section>
+
+    <section class="content-section section-alt" id="food" aria-labelledby="food-title">
+      <div class="section-heading">
+        <p class="eyebrow">Food</p>
+        <h2 id="food-title">อาหารแนะนำ</h2>
+      </div>
+      <div class="card-grid" data-render-list="food"></div>
+    </section>
+
+    <section class="content-section" id="goods" aria-labelledby="goods-title">
+      <div class="section-heading">
+        <p class="eyebrow">Souvenirs</p>
+        <h2 id="goods-title">ของฝากน่าซื้อ</h2>
+      </div>
+      <div class="card-grid" data-render-list="goods"></div>
+    </section>
+
+    <section class="content-section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">ทีมพัฒนา</h2>
+      </div>
+      <div class="team-grid" data-render-list="team"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Travel to Loei Web Project</p>
+    <p>แยกงานด้วย Git branch และรวมงานด้วย Pull Request เข้าสู่ main</p>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

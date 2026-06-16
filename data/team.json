@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ทีม Main",
+    "role": "Project Integrator",
+    "detail": "ดูแลหน้าเว็บหลัก ตรวจ Pull Request และ merge งานจากทุก branch"
+  },
+  {
+    "name": "ทีม Contact",
+    "role": "Contact Content",
+    "detail": "เพิ่มรายชื่อทีมพัฒนา ช่องทางติดต่อ และข้อมูลผู้รับผิดชอบใน branch feature/contact"
+  }
+]

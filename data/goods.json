@@ -1,0 +1,9 @@
+[
+  {
+    "name": "ของฝากจังหวัดเลย",
+    "description": "เพิ่มข้อมูลของฝากยอดนิยม แหล่งซื้อ ราคา และคำแนะนำใน branch feature/goods",
+    "image": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "ของฝากและบรรจุภัณฑ์",
+    "tags": ["รอข้อมูลจากทีม goods"]
+  }
+]
