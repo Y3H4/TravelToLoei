@@ -5,7 +5,7 @@ cd TravelToLoei
 
 ที่เที่ยว 
 git checkout -b feature/attraction origin/main
-
+git status
 
 อาหาร
 
