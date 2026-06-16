@@ -1,9 +1,50 @@
 [
   {
     "name": "เมนูท้องถิ่นจังหวัดเลย",
-    "description": "เพิ่มข้อมูลอาหารประจำถิ่น ร้านแนะนำ ราคา และพิกัดใน branch feature/food",
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "description": "อาหารประจำถิ่น ร้านแนะนำ ราคา และพิกัด ",
+    "image": "https://loei.treasury.go.th/web-upload/80xc871a03d7693ba7e46857aaf0c401234/tinymce/235-026e7d8473c278391d80f2a868f11a54/nopic.jpg",
     "imageAlt": "อาหารท้องถิ่น",
-    "tags": ["รอข้อมูลจากทีม food"]
+    "tags": ["ข้อมูลจากทีม food"]
+  },
+
+  {
+    "name": " ข้าวปุ้นน้ำแจ่วป้าบัวหวาน ",
+    "description": " ร้านแนะนำข้าวปุ้นน้ำแจ่วป้าบัวหวาน อำเภอเชียงคาน จังหวัดเลย  ราคาราคาต่อหัว: ต่ำกว่า 100 บาท ",
+    "image": "https://img.wongnai.com/p/400x0/2023/05/13/afd228a6ba4345b88eaf42f7ad517ed2.jpg",
+    "imageAlt": "อาหารท้องถิ่น",
+    "tags": ["แนะนำ ข้าวปุ้นน้ำแจ่ว"]
+  },
+
+  {
+    "name": "ตำด้องแด้ง (TumDongDang)  ",
+    "description": " ร้านแนะนำ 387 หมู้ 2 พระนครศรีอยุธยา(ถนนโจนะ ตรงข้ามโลตัสแยกอุทัย) อำเภอเชียงคาน จังหวัดเลย  ราคาต่อหัว: 101 - 250 บาท ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKqSEGcwF-fwV9jZ6D8I8c30zZCtPVwKjVf7W6OTyJ5ReCugYbrv78CM&s=10",
+    "imageAlt": "อาหารท้องถิ่น",
+    "tags": ["แนะนำ ตำด้องแด้ง"]
+  },
+
+  
+  {
+    "name": "ร้านข้าวเปียกเส้นแม่ลาน",
+    "description": " ร้านแนะนำ 17/18 ร่วมพัฒนากุดป่อง เมืองเลย เลย จังหวัดเลย  ราคาต่อหัว: 101 - 250 บาท ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQ_j7E2EdFnXISybiKJrSLZkmRysIZk_z4faFv6WuWg&s=10",
+    "imageAlt": "อาหารท้องถิ่น",
+    "tags": ["แนะนำ ข้าวเปียกเส้น"]
+  },
+
+  {
+    "name": "ครัวนุชา เชียงคานฮิลล์รีสอร์ท ",
+    "description": " WP42+FHG เชียงคาน อำเภอเชียงคาน  จังหวัดเลย ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRegPk8eGymaE8WRLh-HNMcXjNLX-ZHJfRuM55NUA5UY88y4_4sgPs1X0gf&s=10",
+    "imageAlt": "อาหารท้องถิ่น",
+    "tags": ["แนะนำ ต้มยำปลาแม่น้ำโขง"]
+  },
+
+  {
+    "name": "จุ่มนัว ยายพัด ",
+    "description": " VMV3+RW5 ถนนศรีเชียงคาน อำเภอเชียงคาน  จังหวัดเลย ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeIN0gNoMkfxagrp3bpCdVLbsWmvYQpbyKD68KxbEcWA&s=10",
+    "imageAlt": "อาหารท้องถิ่น",
+    "tags": ["แนะนำ ข้าวแดกงา"]
   }
 ]
