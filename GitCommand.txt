@@ -1,0 +1,52 @@
+git clone https://github.com/Y3H4/TravelToLoei.git
+cd TravelToLoei
+
+
+
+
+
+ที่เที่ยว 
+git checkout -b feature/attraction origin/main
+git status
+git add data/attraction.json
+git commit -m "Add attraction content"
+git push -u origin feature/attraction
+
+
+------------------------------------------------------------------------------------------
+
+
+
+อาหาร
+
+git checkout -b feature/food origin/main
+git status
+git add data/food.json
+git commit -m "Add food content"
+git push -u origin feature/food
+
+------------------------------------------------------------------------------------------
+
+
+ของฝาก
+git checkout -b feature/goods origin/main
+git status
+git add data/goods.json
+git commit -m "Add goods content"
+git push -u origin feature/goods
+
+
+
+------------------------------------------------------------------------------------------
+
+
+ทีมพัฒนา
+
+git checkout -b feature/contact origin/main
+git status
+git add data/contact.json
+git commit -m "Add contact content"
+git push -u origin feature/contact
+
+------------------------------------------------------------------------------------------
+
