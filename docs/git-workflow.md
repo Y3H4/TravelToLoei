@@ -56,31 +56,40 @@ git checkout main
 
 ## งานของแต่ละ branch
 
-- `feature/attraction` แก้ `data/attractions.json`
-- `feature/food` แก้ `data/food.json`
-- `feature/goods` แก้ `data/goods.json`
-- `feature/contact` แก้ `data/team.json`
+- `feature/attraction` แก้เฉพาะ `feature/attraction/`
+- `feature/food` แก้เฉพาะ `feature/food/`
+- `feature/goods` แก้เฉพาะ `feature/goods/`
+- `feature/contact` แก้เฉพาะ `feature/contact/`
 
-การแยกไฟล์แบบนี้ช่วยลด conflict เพราะแต่ละทีมแก้คนละไฟล์
+แต่ละโฟลเดอร์มี `data.json` และ `images/` สำหรับงานของทีมนั้น การแยกแบบนี้ช่วยลด conflict เพราะแต่ละทีมแก้คนละพื้นที่
 
 ## คำสั่งสำหรับเครื่อง feature
 
 ```powershell
-git clone <GITHUB_REPOSITORY_URL>
+git clone https://github.com/Y3H4/TravelToLoei.git
 cd TravelToLoie
-git checkout feature/food
+git checkout -b feature/food origin/main
 ```
 
-เปลี่ยนชื่อ branch ให้ตรงกับงาน เช่น `feature/goods` หรือ `feature/contact`
+เปลี่ยนชื่อ branch ให้ตรงกับงาน เช่น `feature/goods`, `feature/contact` หรือ `feature/attraction`
+
+ถ้า branch ถูก push ขึ้น GitHub ไว้แล้ว ให้ใช้คำสั่งนี้แทน
+
+```powershell
+git fetch origin
+git checkout feature/food
+```
 
 หลังแก้งานเสร็จ
 
 ```powershell
 git status
-git add data/food.json
+git add feature/food/
 git commit -m "Add Loei food recommendations"
-git push
+git push -u origin feature/food
 ```
+
+เปลี่ยน path และชื่อ branch ให้ตรงกับงานของเครื่องนั้น
 
 จากนั้นเปิด Pull Request บน GitHub โดยเลือก
 
@@ -100,8 +109,10 @@ git pull origin main
 
 ## กติกาเพื่อลดปัญหา merge conflict
 
-- แต่ละ branch แก้เฉพาะไฟล์ที่รับผิดชอบ
+- แต่ละ branch แก้เฉพาะโฟลเดอร์ `feature/<งานของตัวเอง>/`
 - ห้ามแก้ `index.html`, `assets/css/styles.css`, หรือ `assets/js/app.js` จากเครื่อง feature ถ้าไม่ได้ตกลงกับ main
-- ก่อนเริ่มงานทุกครั้งให้ `git pull`
+- ก่อนเริ่มงานครั้งแรกให้สร้าง branch จาก `origin/main` ล่าสุด
 - commit message ควรบอกสิ่งที่เพิ่ม เช่น `Add souvenir data`
 - ถ้า JSON error เว็บอาจโหลดข้อมูลไม่ได้ ให้ตรวจ comma และ quote ให้ถูกต้อง
+- รูปทั้งหมดต้องถูก `git add` และ commit พร้อมกับ `data.json` มิฉะนั้นเครื่อง main จะมองไม่เห็นรูป
+- ห้ามวางรูปไว้ในโฟลเดอร์ของ feature อื่น

@@ -1,9 +1,0 @@
-[
-  {
-    "name": "เมนูท้องถิ่นจังหวัดเลย",
-    "description": "เพิ่มข้อมูลอาหารประจำถิ่น ร้านแนะนำ ราคา และพิกัดใน branch feature/food",
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "อาหารท้องถิ่น",
-    "tags": ["รอข้อมูลจากทีม food"]
-  }
-]

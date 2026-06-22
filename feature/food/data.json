@@ -1,0 +1,20 @@
+[
+  {
+    "id": "loei-local-food",
+    "name": "เมนูท้องถิ่นจังหวัดเลย",
+    "description": "พื้นที่สำหรับเพิ่มอาหารประจำถิ่น ร้านแนะนำ ราคา และพิกัดจากทีม feature/food",
+    "details": [
+      "ทีมอาหารสามารถเพิ่มรายการใหม่ได้หลายรายการ โดยให้หนึ่ง object แทนอาหารหรือร้านหนึ่งแห่ง",
+      "เพิ่มรูปหลายรูปใน images และใส่ mapUrl เมื่อต้องการให้ผู้ใช้เปิดพิกัดร้านใน Google Maps"
+    ],
+    "location": "จังหวัดเลย",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ร้านอาหารท้องถิ่น+จังหวัดเลย",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=82",
+        "alt": "อาหารท้องถิ่น"
+      }
+    ],
+    "tags": ["รอข้อมูลจากทีม food"]
+  }
+]

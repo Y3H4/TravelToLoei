@@ -97,6 +97,40 @@
     <p>แยกงานด้วย Git branch และรวมงานด้วย Pull Request เข้าสู่ main</p>
   </footer>
 
+  <dialog class="detail-modal" data-detail-modal aria-labelledby="detail-modal-title">
+    <div class="detail-modal-panel">
+      <button class="detail-modal-close" type="button" aria-label="ปิดรายละเอียด" data-modal-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="detail-modal-media" data-modal-media>
+        <div class="detail-modal-gallery-stage">
+          <img src="" alt="" data-modal-image>
+          <button class="gallery-control gallery-control-previous" type="button" aria-label="ดูรูปก่อนหน้า" data-gallery-previous>
+            <span aria-hidden="true">&#8249;</span>
+          </button>
+          <button class="gallery-control gallery-control-next" type="button" aria-label="ดูรูปถัดไป" data-gallery-next>
+            <span aria-hidden="true">&#8250;</span>
+          </button>
+          <span class="gallery-counter" data-gallery-counter aria-live="polite"></span>
+        </div>
+        <div class="gallery-thumbnails" data-gallery-thumbnails aria-label="เลือกรูปภาพ"></div>
+      </div>
+      <div class="detail-modal-content">
+        <p class="eyebrow" data-modal-type></p>
+        <h2 id="detail-modal-title" data-modal-title></h2>
+        <div class="detail-modal-description" data-modal-description></div>
+        <dl class="detail-modal-facts" data-modal-facts></dl>
+        <div class="tag-row detail-modal-tags" data-modal-tags></div>
+        <div class="detail-modal-actions" data-modal-actions>
+          <a class="map-button" href="#" target="_blank" rel="noopener noreferrer" data-modal-map>
+            เปิดใน Google Maps
+            <span aria-hidden="true">&#8599;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <script src="assets/js/app.js" defer></script>
 </body>
 </html>
