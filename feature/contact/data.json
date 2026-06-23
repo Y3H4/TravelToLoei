@@ -6,11 +6,68 @@
     "description": "ดูแลหน้าเว็บหลัก ตรวจ Pull Request และ merge งานจากทุก branch",
     "details": [
       "รับผิดชอบโครงสร้างหลักของเว็บไซต์ ตรวจสอบความถูกต้องของข้อมูลและรูปภาพก่อนรวมงาน",
-      "ดูแลการแก้ merge conflict และตรวจว่าแต่ละ feature ทำงานร่วมกันได้บน main"
+      ""
+    ],
+    "images":[
+      {
+        "src": "feature/contact/images/1.jpg",
+        "alt": ""
+
+      }
     ]
   },
   {
-    "id": "contact-team",
+    "id": "Attraction-team",
+    "name": "ทีม Attraction",
+    "role": "Attraction Content",
+    "description": "นายชัยวัฒน์ ชนะบุญ",
+    "images":[
+      {
+        "src": "feature/contact/images/ชว.png",
+        "alt": ""
+
+      }
+    ],
+    "details": [
+      "ดูแลข้อมูลและรายละเอียดในส่วน Attraction ",
+      ""
+    ]
+  },
+  {
+    "id": "Food-team",
+    "name": "ทีม Food",
+    "role": "Food Content",
+    "description": "นายศิวัฒน์ คำแก้ว",
+    "images":[
+      {
+        "src": "feature/contact/images/7377.jpg",
+        "alt": ""
+
+      }
+    ],
+    "details": [
+      "ดูแลข้อมูลและรายละเอียดในส่วน Food",
+      ""
+    ]
+  },
+  {
+    "id": "goods-team",
+    "name": "ทีม Goods",
+    "role": "goods Content",
+    "description": "นายธีรยุทธ สุดเต้",
+    "images":[
+      {
+        "src": "feature/contact/images/10887.jpg",
+        "alt": "" 
+      }
+    ],
+    "details": [
+      "ดูแลข้อมูลอและรายละเอียดในส่วน Goods",
+      ""
+    ]
+  },
+  {
+    "id": "Contact-team",
     "name": "ทีม Contact",
     "role": "Contact Content",
     "description": "นายณัฐกรณ์ อุเทนหลอย",
@@ -22,25 +79,28 @@
       }
     ],
     "details": [
-      "ดูแลข้อมูลสมาชิก บทบาท และช่องทางติดต่อของทีมพัฒนา",
-      "สามารถเพิ่มรูปสมาชิกใน images ได้เมื่อมีไฟล์รูปพร้อมใช้งาน"
+      "All in one",
+      ""
     ]
   },
   {
-    "id": "contact-team",
-    "name": "ทีม Contact",
-    "role": "Contact Content",
-    "description": "นายธีรยุทธ สุดเต้",
+    "id": "ajan",
+    "name": "ครูผู้สอน",
+    "role": "Teacher Content",
+    "description": "ครูโอ้สุดหล่อ",
     "images":[
       {
-        "src": "feature/contact/images/1.jpg",
+        "src": "feature/contact/images/10890.jpg",
         "alt": ""
-
+      },
+      {
+        "src": "feature/contact/images/images (1).jpg",
+        "alt": ""
       }
     ],
     "details": [
-      "ดูแลข้อมูลสมาชิก บทบาท และช่องทางติดต่อของทีมพัฒนา",
-      "สามารถเพิ่มรูปสมาชิกใน images ได้เมื่อมีไฟล์รูปพร้อมใช้งาน"
+      "The best of Dota2 ",
+      ""
     ]
   }
 ]
